@@ -1,0 +1,14 @@
+{
+    "name": "Linda",
+    "age": 28,
+    "city": "Bothell, WA",
+    "interests": [
+        "Traveling",
+        "Hiking",
+        "Puzzles",
+        "Videogames",
+        "Music",
+        "Food"
+    ],
+    "is_student": true
+}
