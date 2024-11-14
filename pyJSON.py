@@ -20,7 +20,7 @@ print("You have successfully written to data1.json")
 
 
 ################
-#Open json file and read the data inside
+#Open json file, load the data from the dictionary and read it
 with open('data1.json','r') as json_file:
 
     loaded_data = json.load(json_file)
@@ -29,12 +29,12 @@ print("Successfully able to read data.json")
 print(loaded_data)
 
 ################
-#Replace information in the dictionary from the jason file referencing the corresponding keys
+#Replace information in the dictionary from the json file referencing the corresponding keys
 loaded_data['age'] = 28
 loaded_data['interests'].append('Food')
 
 ################
-#Open jason file and write the changes made to the dictionary
+#Open json file and write the changes made to the dictionary
 
 with open('data1.json','w') as json_file:
     json.dump(loaded_data, json_file, indent=4)
